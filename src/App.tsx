@@ -10,7 +10,7 @@ import Events from './pages/Events';
 import Reservations from './pages/Reservations';
 import Contact from './pages/Contact';
 import Menu from './pages/menu';
-import Reservations from './pages/reservations';
+import Reservations from './pages/Reservations';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
             <Route path="/reservations" element={<Reservations />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/menu" element={<Menu />} />
-        <Route path="/reservations" element={<Reservations />} />
+        <Route path="/Reservations" element={<Reservations />} />
           </Routes>
         </main>
         <Footer />
