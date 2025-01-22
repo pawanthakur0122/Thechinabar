@@ -9,6 +9,8 @@ import Gallery from './pages/Gallery';
 import Events from './pages/Events';
 import Reservations from './pages/Reservations';
 import Contact from './pages/Contact';
+import Menu from './menu';
+import Reservations from './reservations';
 
 function App() {
   return (
