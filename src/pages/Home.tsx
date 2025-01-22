@@ -47,7 +47,7 @@ const Home = () => {
   className="flex items-center space-x-2 px-8 py-4 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors w-full md:w-auto"
 >
   <GlassWater className="w-5 h-5" />
-  <Link to="/menu">
+  <Link to="pages/menu">
     <span>View Menu</span>
   </Link>
 </motion.button>
@@ -58,7 +58,7 @@ const Home = () => {
   className="flex items-center space-x-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full hover:bg-white/20 transition-colors w-full md:w-auto"
 >
   <UtensilsCrossed className="w-5 h-5" />
-  <Link to="/reservations">
+  <Link to="pages/reservations">
     <span>Reserve a Table</span>
   </Link>
 </motion.button>
