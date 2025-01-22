@@ -46,17 +46,21 @@ const Home = () => {
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center space-x-2 px-8 py-4 bg-purple-600 text-white rounded-full hover:bg-purple-700 transition-colors w-full md:w-auto"
                 >
-                  <GlassWater className="w-5 h-5" />
-                  <span>View Menu</span>
-                </motion.button>
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center space-x-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full hover:bg-white/20 transition-colors w-full md:w-auto"
-                >
-                  <UtensilsCrossed className="w-5 h-5" />
-                  <span>Reserve a Table</span>
-                </motion.button>
+                 <Link to="/menu" className="flex items-center space-x-2">
+            <GlassWater className="w-5 h-5" />
+            <span>View Menu</span>
+          </Link>
+        </motion.div>
+        <motion.div
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="flex items-center space-x-2 px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-full hover:bg-white/20 transition-colors w-full md:w-auto"
+        >
+                  <Link to="/reservations" className="flex items-center space-x-2">
+            <UtensilsCrossed className="w-5 h-5" />
+            <span>Reserve a Table</span>
+          </Link>
+        </motion.div>
               </div>
             </motion.div>
           </div>
