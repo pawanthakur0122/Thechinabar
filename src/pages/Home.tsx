@@ -38,7 +38,7 @@ const Home = () => {
                 </span>
               </h1>
               <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
-                Experience the perfect blend of luxury and ambiance in Shanghai's most exclusive premium lounge
+                Experience the perfect blend of luxury and ambiance in Malaysia's most exclusive premium lounge
               </p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-6">
                 <motion.button
