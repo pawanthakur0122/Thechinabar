@@ -9,8 +9,8 @@ import Gallery from './pages/Gallery';
 import Events from './pages/Events';
 import Reservations from './pages/Reservations';
 import Contact from './pages/Contact';
-import Menu from './menu';
-import Reservations from './reservations';
+import Menu from './pages/menu';
+import Reservations from './pages/reservations';
 
 function App() {
   return (
@@ -25,6 +25,8 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/reservations" element={<Reservations />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/menu" element={<Menu />} />
+        <Route path="/reservations" element={<Reservations />} />
           </Routes>
         </main>
         <Footer />
